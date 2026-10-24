@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+build.log
+
+# Never commit real patrol exports: they contain locations, photos and device IDs
+*.json
+!tests/**/*.json
